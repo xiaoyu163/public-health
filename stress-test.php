@@ -9,14 +9,82 @@
 ?>
 
 <!DOCTYPE html>
-  <head>
-    <title>Stress Test</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+
+<style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #bbe5e1;
+      background-image: url('bg-image-1.png'),url('bg-image-2.png');
+      background-size: contain, contain;
+      background-repeat: no-repeat,no-repeat;
+      background-position: left, right;
+      position: relative;
+      padding: 100px;
+
+      font-family: Times;
+      font-size : 30px;
+      color: #27407E;
+    }
+
+    h1 {
+      text-align:center;
+      background:
+      linear-gradient(65deg , transparent 50%,rgba(3,78,136,0.7) 50%) left no-repeat, 
+      linear-gradient(0deg , rgba(3,78,136,0.7),rgba(3,78,136,0.7)) 30px 0 no-repeat;
+      background-size:30px 100%, 100% 100%;
+      width:400px;
+      height:60px;
+      padding:0 20px;
+      color:white;
+      margin:20px auto;
+      position:relative;
+    }
+
+    h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .container-2 {
+      background-color: #fff4df;
+      text-align: justify;
+      width: fit-content;
+      padding: 50px;
+      margin: auto;
+      margin-top: 30px;
+      border-radius: 25px;
+    }
+    
+    button {
+      background-color: #27407E;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0 auto;
+      margin-top: 10px;
+      color:white;
+    }
+    
+    button:hover {
+      background-color: #bbe5e1;
+      color: black;
+    }
+    
+    button:focus {
+      outline: none;
+    }
+</style>
+
+<body>
+    <!--  Header  -->
     <header>
       <h1>Stress Test</h1>
     </header>
+    <!--  Quiz -->
     <div class="container-2">
       <?php if ($score == 0): ?>
         <form method="post">
@@ -39,6 +107,7 @@
           <button type="submit">Submit</button>
         </form>
       <?php else: ?>
+      <!--  Result -->
         <div class ="result">
           <h2>Your Stress Level is <?php echo $score; ?></h2>
           <br>
@@ -61,4 +130,5 @@
           <?php endif; ?>
         </div>
       <?php endif; ?>
-</div> 
+    </div> 
+  </body>
