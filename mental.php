@@ -85,16 +85,6 @@
       margin-top: 0;
       text-align: center;
     }
-
-    .container-2 {
-      background-color: #fff4df;
-      text-align: justify;
-      width: fit-content;
-      padding: 50px;
-      margin: auto;
-      margin-top: 30px;
-      border-radius: 25px;
-    }
     
     button {
       background-color: #27407E;
