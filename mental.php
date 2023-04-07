@@ -68,7 +68,7 @@
       justify-content: center;
       text-align: center;
       margin: 20px;
-      margin-bottom: 20px;;
+      margin-bottom: 20px;
       width: 400px;
       padding: 20px;
       background-color: #f2f2f2;
