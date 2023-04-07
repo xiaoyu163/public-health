@@ -9,7 +9,6 @@
 ?>
 
 <!DOCTYPE html>
-<html>
   <head>
     <title>Stress Test</title>
     <link rel="stylesheet" href="style.css">
