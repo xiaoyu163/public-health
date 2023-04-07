@@ -23,12 +23,17 @@
         background-color: #80cccc;
         color: white;
         }
+    
+    h2{
+        margin-left: 15px;
+        font-family: "Garamond", serif;
+    }
 </style>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Public Health and Healthcare Access</title>
-        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <h1>Public Health and Healthcare Access</h1>
     </head>
     <body>
