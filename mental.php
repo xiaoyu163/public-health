@@ -115,7 +115,7 @@
     button:focus {
       outline: none;
     }
-  </style>
+</style>
 
 <body>
     <?php 
@@ -130,6 +130,7 @@
         <h2>Know More About Mental Health Problems</h2>
     </div>
 
+    <!-- 10 mental health problem  -->
     <div class="flex-container">
         <div class="flex-item">
             <h2>Anxiety Disorders</h2>
@@ -223,6 +224,7 @@
           </div>
         </div>
 
+        <!-- Stress test quiz  -->
         <div class="container">
           <section>
             <h2>Take a Stress Test</h2>
