@@ -28,6 +28,11 @@
         margin-left: 15px;
         font-family: "Garamond", serif;
     }
+
+    a {
+        text-decoration:none;
+    }
+
 </style>
 <html>
     <head>
