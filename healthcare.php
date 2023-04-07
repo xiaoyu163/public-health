@@ -4,6 +4,6 @@
         include 'nav.php';
     ?>
 
-    <h2>Health Literacy</h2>
+    <h2>Healthcare</h2>
 
 </body>
