@@ -41,7 +41,7 @@
             <a <?php if ($page == "current") { echo "class='active'";} ?> href="current.php">Current Issues</a>
             <a <?php if ($page == "mental") { echo "class='active'";} ?> href="mental.php">Mental Health</a>
             <a <?php if ($page == "disease") { echo "class='active'";} ?> href="disease.php">General Diseases</a>
-            <a <?php if ($page == "literacy") { echo "class='active'";} ?> href="literacy.php">Health Literacy</a>
+            <a <?php if ($page == "topics") { echo "class='active'";} ?> href="topics.php">Health Topics</a>
             <a <?php if ($page == "home") { echo "class='active'";} ?> href="home.php">Home</a>
         </div>
     </body>
