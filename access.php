@@ -38,49 +38,48 @@
     }
 
     .collapsible{
-        background-color: #001F84;
-        color: white;
+        background-color: #ADEADC;
+        color: black;
         cursor: pointer;
         padding: 18px;
         width: 100%;
         border: none;
         text-align: left;
         outline: none;
-        font-size: 15px;
+        font-size: 18px;
+        font-family: 'Times New Roman';
     }
 
     .active, .collapsible :hover{
-        background-color: #001F84;
+        background-color: #ADEADC;
     }
 
     .content{
         padding: 0 18px;
         display: none;
         overflow: hidden;
-        background-color: #FEFEFF;
+        background-color: #EDECEC;
     }
-
     
-
     .container2{
-       /*background:linear-gradient(45deg, blueviolet, lightgreen);*/
-       background-color: #B2EAFF;
+       background-color: #FFFEFE;
        padding:15px 9%;
-       padding-bottom: 100px;
-       border-radius: 10px;
+       padding-bottom: 60px;
+       border-radius: 5px;
+      
     }
 
-    .container2 .heading{
+    .heading{
        text-align: left;
        padding-bottom: 5px;
        color:#fff;
        text-shadow: 0 5px 10px rgba(0,0,0,.2);
        font-size: 30px;
+       text-align: center;
     }
  
     .container{
-       /*background:linear-gradient(45deg, blueviolet, lightgreen);*/
-       background-color: #D5FFF4;
+       background-color: #B9DBCF;
        padding:15px 9%;
        padding-bottom: 100px;
        border-radius: 10px;
@@ -132,6 +131,7 @@
        font-size: 17px;
        border-radius: 5px;
        padding: 8px 25px;
+     
    }
 
    .container .box-container .box .btn:hover{
@@ -151,7 +151,7 @@
 
    header {
       background-color: #bbe5e1;
-      /*background-image: url('docbackground.png'),url('docbackground.png');*/
+      background-image: url(''),url('images/healthcare.png');
       background-size: contain, contain;
       background-repeat: no-repeat,no-repeat;
       background-position: left, right;
@@ -171,18 +171,17 @@
 
     <header>
         <h1>Healthcare Access</h1>
-        <img src ="images/healthcare.png" width="500" height="500">
+      
     </header>
-</br>
+</br> 
+    
+    <h2 class="heading" style="color: black">Healthcare Facilites - Hospital</h2>    
     <!--dropdown list--> 
     <div class="container2">
-        <h4 class="heading" style="color: black">Healthcare Facilites - Hospital</h4>
-        <div class="box-container">
-</br>
-   
+     <div class="box-container">
         </div>
-
         <button type="button" class="collapsible">Johor</button>
+        
         <div class="content">
           <p>
               <ul>
@@ -1465,15 +1464,11 @@
               });
            }
     </script> 
-   
-    </div>
-</br>
-    
-    <div class="container">
+</div>
 
-    <h4 class="heading" style="color: black">Medical Appointment Applications</h4>
-    <!--<h2 style="color: white"><center>Medical Appointment Applications</center></h2>-->
-    <!--<h4>enable you to access to consultation 24/7</h4>-->
+<h2 class="heading" style="color: black">Medical Appointment Applications</h2> 
+        </br>
+    <div class="container">
     <div class="box-container">
         <div class="box">
             <img src="images/bookdoc.png" alt="">
