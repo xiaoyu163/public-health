@@ -34,7 +34,7 @@
   .side {
     flex: 20%;
     padding: 50px;
-    background-color: rgb(198, 216, 235, 0.8);
+    background-color: rgb(198, 216, 235, 0.95);
     border: 2px solid rgb(238, 232, 232);
     text-align: center;
   }
@@ -43,10 +43,11 @@
   .main {
     flex: 60%;
     padding: 60px;
-    background-color: rgb(217, 229, 242, 0.8);
+    background-color: rgb(217, 229, 242, 0.95);
     border: 2px solid rgb(238, 232, 232);
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    word-spacing: 5px;
   }
 
   h3{
