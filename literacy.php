@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <style>
-    a {
-        text-decoration:none;
-    }
-
+ 
     .container {
         display: flex;
         /* establish flex container */

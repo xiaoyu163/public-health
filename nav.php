@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <style>
+    a {
+        text-decoration:none;
+    }
+
+    .header {
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .subheader{
+        font-family:'Times New Roman', Times, serif;
+        font-weight: lighter;
+    }
+
     /* Background color for top navigation */
     .topnav {
-    background-color: #4b7777;
-    overflow: hidden;
+        background-color: #4b7777;
+        overflow: hidden;
     }
     /* Link inside navigation bar */
     .topnav a {
@@ -22,16 +35,9 @@
     .topnav a.active {
         background-color: #80cccc;
         color: white;
-        }
-    
-    /* h2{
-        margin-left: 15px;
-        font-family: "Garamond", serif;
-    } */
-
-    a {
-        text-decoration:none;
     }
+
+   
 
 </style>
 <html>
@@ -39,8 +45,8 @@
         <meta charset="utf-8">
         <title>Public Health and Healthcare Access</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <h1><center>Public Health and Healthcare Access</center></h1>
-        <p><center><i>Better Healthcare, Better Tomorrow</i></center></p>
+        <h1 class="header"><center>Public Health and Healthcare Access</center></h1>
+        <h4 class="header"><center><i>Better Healthcare, Better Tomorrow</i></center></h4>
     </head>
     <body>
         <?php

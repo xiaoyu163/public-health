@@ -155,10 +155,6 @@
     <?php 
         include 'nav.php';
     ?>
-    <div class="header">
-        
-        <!--<h2>Health Facilites - Hospital</h2>-->
-    </div>
 
     <!--dropdown list--> 
     <div class="container2">
