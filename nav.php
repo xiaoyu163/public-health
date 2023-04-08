@@ -25,6 +25,7 @@
         text-align: center;
         padding: 14px 16px;
         font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
     }
     /* Color of links when hover */
     .topnav a:hover {
