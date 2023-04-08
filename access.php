@@ -158,7 +158,7 @@
 
     <!--dropdown list--> 
     <div class="container2">
-        <h4 class="heading" style="color: black">Healthcare Facilites - Hospital</h4>
+        <h4 class="heading" style="color: black">Healthcare Facilites </h4>
         <div class="box-container">
 </br>
    
