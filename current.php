@@ -57,9 +57,13 @@
     }
 
 </style>
+<?php 
+  include 'nav.php';
+?>
 </head>
 
 <body class=bg> 
+    
     <header>
       <h1>Latest Diseases Occur Globally</h1>
     </header>
@@ -69,7 +73,7 @@
   <h3 class=point>  1. Coronavirus Disease (Covid 19)</h3>
   <div class="grid-container">
     <div div class=item1 >
-      <image src="image/Covid 19.jpg" width=300 height=200>
+      <image src="images/Covid 19.jpg" width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -85,7 +89,7 @@
  <h3 class=point>  2. MonkeyPox (Mpox)</h3>
   <div class="grid-container">
     <div div class=item1 >
-      <image src="image/Monkeypox.jpg" width=300 height=200>
+      <image src="images/Monkeypox.jpg" width=300 height=200>
     </div>
     <p class=p1> 
       <?php
@@ -101,7 +105,7 @@
  <h3 class=point>  3. Marburg Virus Disease (MVD)</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="image/marburg.jpg" width=300 height=200>
+      <image src="images/marburg.jpg" width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -117,7 +121,7 @@
   <h3 class=point>  4. Measles</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="image/Measles.jpg" width=300 height=200>
+      <image src="images/Measles.jpg" width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -133,7 +137,7 @@
   <h3 class=point>  5. Avian Influenza A (H5N1)</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="image/H5N1.jpg" width=300 height=200>
+      <image src="images/H5N1.jpg" width=300 height=200>
     </div>
         <p class=p1>  
           <?php
