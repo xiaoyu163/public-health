@@ -149,6 +149,19 @@
        }
    }
 
+   header {
+      background-color: #bbe5e1;
+      /*background-image: url('docbackground.png'),url('docbackground.png');*/
+      background-size: contain, contain;
+      background-repeat: no-repeat,no-repeat;
+      background-position: left, right;
+      position: relative;
+      padding: 100px;
+      font-family: Times;
+      font-size : 30px;
+      color: #27407E;
+    }
+
     </style>
 </head>
 <body> 
@@ -156,9 +169,14 @@
         include 'nav.php';
     ?>
 
+    <header>
+        <h1>Healthcare Access</h1>
+        <img src ="images/healthcare.png" width="500" height="500">
+    </header>
+</br>
     <!--dropdown list--> 
     <div class="container2">
-        <h4 class="heading" style="color: black">Healthcare Facilites </h4>
+        <h4 class="heading" style="color: black">Healthcare Facilites - Hospital</h4>
         <div class="box-container">
 </br>
    
