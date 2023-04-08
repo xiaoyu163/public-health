@@ -60,7 +60,7 @@
             <a <?php if ($page == "healthcare") { echo "class='active'";} ?> href="healthcare.php">Healthcare</a>
             <a <?php if ($page == "mental") { echo "class='active'";} ?> href="mental.php">Mental Health</a>            
             <a <?php if ($page == "literacy") { echo "class='active'";} ?> href="literacy.php">Health Literacy</a>
-            <a <?php if ($page == "home") { echo "class='active'";} ?> href="home.php">Home</a>
+            <a <?php if ($page == "index") { echo "class='active'";} ?> href="index.php">Home</a>
         </div>
     </body>
 </html>
