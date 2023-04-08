@@ -29,7 +29,7 @@
       color: #27407E;
     }
 
-    h1 {
+    header h1 {
       text-align:center;
       background:
       linear-gradient(65deg , transparent 50%,rgba(3,78,136,0.7) 50%) left no-repeat, 
@@ -80,6 +80,9 @@
 </style>
 
 <body>
+    <?php 
+        include 'nav.php';
+    ?>
     <!--  Header  -->
     <header>
       <h1>Stress Test</h1>

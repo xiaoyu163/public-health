@@ -24,10 +24,10 @@
         color: white;
         }
     
-    h2{
+    /* h2{
         margin-left: 15px;
         font-family: "Garamond", serif;
-    }
+    } */
 
     a {
         text-decoration:none;
