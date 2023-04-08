@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <style>
+<style>
 .item1 {
   grid-area: "myArea";
 }
@@ -32,24 +32,18 @@
     margin: 10px;
     
     /* other styling */
-    background-color: #47303a;
+    background-color: rgb(102, 153, 153);
     border-radius: 10px;
     border: 1px solid rgb(238, 232, 232);
-    color: rgb(250, 250, 250);
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     text-align: justify;
   }
     
   .bg{ 
-    background-image:url("https://i.pinimg.com/originals/31/43/1f/31431f79e53ac78ec7e02b02ddf15023.jpg");  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    margin: 0%;
+    background-color: rgb(209, 224, 224);
     }
-
 </style>
 
 </head>
