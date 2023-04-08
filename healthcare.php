@@ -31,7 +31,7 @@
 .side {
   flex: 20%;
   padding: 25px;
-  background-color: rgba(216, 121, 121, 0.8);
+  background-color: rgb(198, 216, 235, 0.8);
   border: 2px solid rgb(238, 232, 232);
   text-align: center;
 
@@ -41,13 +41,13 @@
 .main {
   flex: 60%;
   padding: 60px;
-  background-color: rgba(230, 169, 169, 0.8);
+  background-color: rgb(217, 229, 242, 0.8);
   border: 2px solid rgb(238, 232, 232);
   font-family:Arial, Helvetica, sans-serif;
   font-size: larger;
   
 }
-  </style>
+</style>
 </head>
 <body class=bg1> 
   <?php 
@@ -56,7 +56,7 @@
 
   <section class=my-4>
     <div class="py-4" >
-      <h2 class="text-center" >Ways To Maintain Health <i class='fas fa-heartbeat' style='font-size:50px;color:Tomato'></i></h2>
+      <h2 class="text-center" >Ways To Maintain Health <i class='fas fa-heartbeat' style='font-size:50px;color:#336699'></i></h2>
     </div>
 
  
