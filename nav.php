@@ -39,7 +39,8 @@
         <meta charset="utf-8">
         <title>Public Health and Healthcare Access</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <h1>Public Health and Healthcare Access</h1>
+        <h1><center>Public Health and Healthcare Access</center></h1>
+        <p><center><i>Better Healthcare, Better Tomorrow</i></center></p>
     </head>
     <body>
         <?php

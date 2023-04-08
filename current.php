@@ -71,7 +71,7 @@
 
   <div class="grid-container">
     <div div class="m-4 ",class="py-0" class=item1 >
-      <image src="image/Covid 19.jpg" width=300 height=200>
+      <image src="images/Covid 19.jpg" width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -89,7 +89,7 @@
 
   <div class="grid-container">
     <div div class="m-4 ",class="py-0" class=item1 >
-      <image src="image/Monkeypox.jpg" width=300 height=200>
+      <image src="images/Monkeypox.jpg" width=300 height=200>
     </div>
     <p class=p1> 
       <?php
@@ -107,7 +107,7 @@
 
   <div class="grid-container">
     <div div class="m-4 ",class="py-0" class=item1 >
-      <image src="image/marburg.jpg" width=300 height=200>
+      <image src="images/marburg.jpg" width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -125,7 +125,7 @@
 
   <div class="grid-container">
     <div div class="m-4 ",class="py-0" class=item1 >
-      <image src="image/Measles.jpg" width=300 height=200>
+      <image src="images/Measles.jpg" width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -143,7 +143,7 @@
 
   <div class="grid-container">
     <div div class="m-4 ",class="py-0" class=item1 >
-      <image src="image/H5N1.jpg" width=300 height=200>
+      <image src="images/H5N1.jpg" width=300 height=200>
     </div>
         <p class=p1>  
           <?php
