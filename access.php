@@ -1494,21 +1494,21 @@
         <div class="box">
             <img src="images/doctoroncall.png" alt="">
             <h3>DoctorOnCall</h3>
-            <p>Your online doctor and pharmacy</p>
+            <p>Your Online Doctor And Pharmacy</p>
             <a href="https://www.doctoroncall.com.my/" class="btn">Read More</a>
         </div>
 
         <div class="box">
             <img src="images/speedoc.png" alt="">
             <h3>Speedoc</h3>
-            <p>Your healthcare comes to you</p>
+            <p>Your Healthcare Comes To You</p>
             <a href="https://my.speedoc.com/" class="btn">Read More</a>
         </div>
 
         <div class="box">
             <img src="images/teleme.png" alt="">
             <h3>Teleme</h3>
-            <p>Your #1 healthcare app</p>
+            <p>Your #1 Healthcare App</p>
             <a href="https://teleme.co/" class="btn">Read More</a>
         </div>
 
@@ -1517,3 +1517,4 @@
 </div>
 </body>
 </html>
+
