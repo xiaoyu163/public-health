@@ -175,7 +175,7 @@
     </header>
 </br> 
     
-    <h2 class="heading" style="color: black">Healthcare Facilites - Hospital</h2>    
+    <h2 class="heading" style="color: black">Healthcare Facilities - Hospital</h2>    
     <!--dropdown list--> 
     <div class="container2">
      <div class="box-container">
