@@ -9,7 +9,7 @@
 
   <style>
     body {
-      background-image: url("https://i.pinimg.com/originals/78/bc/6b/78bc6b1c9d2b9663b80cb840f7f45ffc.jpg");
+      background-color: #527a7a;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -22,6 +22,7 @@
       text-align: center;
       position: relative;
       font-family: 'Times New Roman', Times, serif;
+      color:#d0e1e1;
     }
 
     /* Column container */
@@ -52,7 +53,7 @@
   }
 
     h3 {
-      color: #2d5986;
+      color: #d0e1e1;
       text-shadow: 2px 2px 5px #336699;
       text-align: center;
       position: relative;
@@ -67,7 +68,7 @@
 <body class=bg1>
 
   <header>
-    <h1>Ways To Maintain Health <i class='fas fa-heartbeat' style='font-size:50px;color:#336699'></i></h1>
+    <h1>Ways To Maintain Health <i class='fas fa-heartbeat' style='font-size:50px;color:#94b8b8'></i></h1>
   </header>
   <br>
 
