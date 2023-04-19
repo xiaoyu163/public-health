@@ -65,7 +65,7 @@
           <p></p>
         </div>
         <div class = "col-md-6 text-center">
-          <img src = "image/bg-image-2.png" class = "img-fluid" style="height:200px">
+          <img src = "images/bg-image-2.png" class = "img-fluid" style="height:200px">
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
       <div class = "row row-flex">
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/anxiety.png" class = "info-img">
+            <img src = "images/anxiety.png" class = "info-img">
             <h4>Anxiety Disorders</h4>
             <p>For a person with an anxiety disorder, the anxiety does not go away and 
               can get worse over time. The symptoms can interfere with daily activities such 
@@ -92,7 +92,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/behavioral.jpg" class = "info-img">
+            <img src = "images/behavioral.jpg" class = "info-img">
             <h4>Behavioral Disorders</h4>
             <p>Behavioral disorders involve a pattern of disruptive behaviors in children that last for at least 6 months and cause problems in school, at home and in social situations.
             <br>
@@ -101,7 +101,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/eating.jpg " class = "info-img">
+            <img src = "images/eating.jpg " class = "info-img">
             <h4>Eating Disorders Disorders</h4>
             <p>Eating disorders involve extreme emotions, attitudes, and behaviors involving weight and food.
             <br>
@@ -112,7 +112,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/substance.jpeg" class = "info-img">
+            <img src = "images/substance.jpeg" class = "info-img">
             <h4>Substance Use Disorders</h4>
             <p>Substance use disorders can refer to substance use or substance dependence.
             <br>
@@ -122,7 +122,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/mood.jpg" class = "info-img">
+            <img src = "images/mood.jpg" class = "info-img">
             <h4>Mood Disorders</h4>
             <p>If you have a mood disorder, your general emotional state or mood is distorted or inconsistent with your circumstances and interferes with your ability to function.
             <br>
@@ -131,7 +131,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/personality.jpg" class = "info-img">
+            <img src = "images/personality.jpg" class = "info-img">
             <h4>Personality Disorders</h4>
             <p>Personality disorders are conditions in which an individual differs significantly from an average person, in terms of how they think, perceive, feel or relate to others.
             <br>
@@ -140,7 +140,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/psychotic.jpeg" class = "info-img">
+            <img src = "images/psychotic.jpeg" class = "info-img">
             <h4>Psychotic  Disorders</h4>
             <p>People with a psychotic disorder may be convinced that someone is spying on them or following them, may hear voices or have the feeling that others are manipulating their thoughts.  
             <br>    
@@ -149,7 +149,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/self harm.jpg" class = "info-img">
+            <img src = "images/self harm.jpg" class = "info-img">
             <h4>Self-Harm</h4>
             <p>Self-harm refers to a person's harming their own body on purpose. 
             <br>   
@@ -158,7 +158,7 @@
         </div>
         <div class = "col-md-4">
           <div class = "box">
-            <img src = "image/suicidal.jpg" class = "info-img">
+            <img src = "images/suicidal.jpg" class = "info-img">
             <h4>Suicidal Behavior</h4>
             <p>Suicide causes immeasurable pain, suffering, and loss to individuals, families, and communities nationwide. 
             <br>
@@ -167,7 +167,7 @@
         </div>
         <div class = "col-md-4 mx-auto">
           <div class = "box">
-            <img src = "image/post traumatic.jpg" class = "info-img">
+            <img src = "images/post traumatic.jpg" class = "info-img">
             <h4>Post-Traumatic Stress Disorder (PTSD) </h4>
             <p>You can get PTSD after living through or seeing a traumatic event, such as war, a hurricane, rape, physical abuse or a bad accident. 
             <br>
