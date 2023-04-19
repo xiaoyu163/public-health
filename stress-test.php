@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p class="website-title">Stress Test</p>
           </div>
           <div class="col-md-6 text-center">
-            <img src="image/bg-image-2.png" class="img-fluid" style="height:200px">
+            <img src="images/bg-image-2.png" class="img-fluid" style="height:200px">
           </div>
         </div>
       </div>
