@@ -1,226 +1,198 @@
 <!DOCTYPE html>
 
 <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    
-    header {
-      background-color: #bbe5e1;
-      background-image: url('images/bg-image-1.png'),url('images/bg-image-2.png');
-      background-size: contain, contain;
-      background-repeat: no-repeat,no-repeat;
-      background-position: left, right;
-      position: relative;
-      padding: 100px;
-      font-family: Times;
-      font-size : 30px;
-      color: #27407E;
-    }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: sans-serif;
+  }
+  #banner{
+    background-color: #bbe5e1 ;
+    color: #27407E;
+    padding-top : 5%;
+  }
+  .website-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 100px; 
+  }
+  .info-img{
+    width : 100%;
+    height: 50%;
+  }
+  
+  .row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    header h1 {
-      text-align:center;
-      background:
-      linear-gradient(65deg , transparent 50%,rgba(3,78,136,0.7) 50%) left no-repeat, 
-      linear-gradient(0deg , rgba(3,78,136,0.7),rgba(3,78,136,0.7)) 30px 0 no-repeat;
-      background-size:30px 100%, 100% 100%;
-      width:400px;
-      height:60px;
-      padding:0 20px;
-      color:white;
-      margin:20px auto;
-      position:relative;
-    }
+  [class*="col-"] {
+    padding: 30px;
+  }
 
-    .subtitle {
-      width :80%;
-      margin: auto;
-      text-align: center;
-      padding-top: 100px;
-    }
+  .box {
+    background-color: #fff4df;
+    border-radius: 15px;
+    height: 100%;
+    padding: 15px;
+    overflow: scroll;
+  }
 
-    .flex-container{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
+  .stress-test-box{
+    background-color:  #f2f2f2;
+    border-radius: 15px;
+    padding: 15px;
+  }
 
-    .flex-item {
-      border-radius: 15px;
-      flex-basis: 31%;
-      background-color: #fff4df;
-      margin-bottom: 5%;
-      padding: 20px 12px;
-      box-sizing: border-box;
-      text-align:justify;
-    }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      margin: auto;
-      justify-content: space-around;
-      padding: 15px;
-      align-items: center;
-    }
-
-    section {
-      justify-content: center;
-      text-align: center;
-      margin: 20px;
-      margin-bottom: 20px;
-      width: 400px;
-      padding: 20px;
-      background-color: #f2f2f2;
-      border-radius: 10px;
-    }
-    
-    @media(max-width: 600px){
-      .flex-container{
-          flex-direction: column;
-      }
-    }
-
-    h2 {
-      margin-top: 0;
-      text-align: center;
-    }
-    
-    button {
-      background-color: #27407E;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      margin: 0 auto;
-      margin-top: 10px;
-      color:white;
-    }
-    
-    button:hover {
-      background-color: #bbe5e1;
-      color: black;
-    }
-    
-    button:focus {
-      outline: none;
-    }
 </style>
 
+<head>
+  <title> Mental Health </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+
 <body>
-    <?php 
-        include 'nav.php';
-    ?>
+  <section id = "banner">
+    <div class = "container h-100">
+      <div class = "row h-100">
+        <div class = "col-md-6 text-center">
+          <p class ="website-title">Mental Health</p>
+          <p></p>
+        </div>
+        <div class = "col-md-6 text-center">
+          <img src = "bg-image-2.png" class = "img-fluid" style="height:200px">
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <header>
-        <h1>Mental Health</h1>
-    </header>
-
-    <div class ="subtitle">
+  <section id = "info">
+    <div class ="subtitle text-center p-5">
         <h2>Know More About Mental Health Problems</h2>
     </div>
 
-    <!-- 10 mental health problem  -->
-    <div class="flex-container">
-        <div class="flex-item">
-            <h2>Anxiety Disorders</h2>
-            <p>
-              <img src="images/anxiety.png" style="width:420px;height:260px;"><br>
-              For a person with an anxiety disorder, the anxiety does not go away and can get worse over time. The symptoms can interfere with daily activities such as job performance, schoolwork, and relationships.
-              <br><br>
+    <div class = "container">
+      <div class = "row row-flex">
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "anxiety.png" class = "info-img">
+            <h4>Anxiety Disorders</h4>
+            <p>For a person with an anxiety disorder, the anxiety does not go away and 
+              can get worse over time. The symptoms can interfere with daily activities such 
+              as job performance, schoolwork, and relationships. 
+              <br>
               <a href="https://www.mentalhealth.gov/what-to-look-for/anxiety-disorders"> Learn More</a>
             </p>
-        </div>
-        <div class="flex-item">
-            <h2>Behavioral Disorders</h2>
-            <p>
-              <img src="images/behavioral.jpg" style="width:420px;height:260px;"><br>
-              Behavioral disorders involve a pattern of disruptive behaviors in children that last for at least 6 months and cause problems in school, at home and in social situations. 
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/behavioral-disorders"> Learn More</a>
-            </p>
-          </div>
-          <div class="flex-item">
-            <h2>Eating Disorders</h2>
-            <p>
-              <img src="images/eating.jpg" style="width:420px;height:260px;"><br>
-              Eating disorders involve extreme emotions, attitudes, and behaviors involving weight and food.
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/eating-disorders"> Learn More</a>
-            </p>
-          </div>  
-          <div class="flex-item">
-            <h2>Substance Use Disorders</h2>
-            <p>
-              <img src="images/substance.jpeg" style="width:420px;height:260px;"><br>
-              Substance use disorders can refer to substance use or substance dependence.          
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/mental-health-substance-use-disorders"> Learn More</a>
-            </p>
-          </div> 
-          <div class="flex-item">
-            <h2>Mood Disorders</h2>
-            <p>
-              <img src="images/mood.jpg" style="width:420px;height:260px;"><br>
-              If you have a mood disorder, your general emotional state or mood is distorted or inconsistent with your circumstances and interferes with your ability to function.
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/mood-disorders"> Learn More</a>  
-            </p>
-          </div> 
-          <div class="flex-item">
-            <h2>Personality Disorders</h2>
-            <p>
-              <img src="images/personality.jpg" style="width:420px;height:260px;"><br>
-              Personality disorders are conditions in which an individual differs significantly from an average person, in terms of how they think, perceive, feel or relate to others.           
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/personality-disorders">Learn More</a> 
-            </p>
-          </div> 
-          <div class="flex-item">
-            <h2>Psychotic Disorders</h2>
-            <p>
-              <img src="images/psychotic.jpeg" style="width:420px;height:260px;"><br>
-              People with a psychotic disorder may be convinced that someone is spying on them or following them, may hear voices or have the feeling that others are manipulating their thoughts.          
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/psychotic-disorders">Learn More</a>
-            </p>
-          </div> 
-          <div class="flex-item">
-            <h2>Self-Harm</h2>
-            <p>
-              <img src="images/self harm.jpg" style="width:420px;height:260px;"><br>
-              Self-harm refers to a person\'s harming their own body on purpose. 
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/self-harm"> Learn More</a>  
-            </p>
-          </div>
-          <div class="flex-item">
-            <h2>Suicidal Behavior</h2>
-            <p>
-              <img src="images/suicidal.jpg" style="width:420px;height:260px;"><br>
-              Suicide causes immeasurable pain, suffering, and loss to individuals, families, and communities nationwide. 
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/suicidal-behavior"> Learn More</a>
-            </p>
-          </div>
-          <div class="flex-item">
-            <h2>Post-Traumatic Stress Disorder</h2>
-            <p>
-              <img src="images/post traumatic.jpg" style="width:420px;height:260px;"><br>
-              You can get PTSD after living through or seeing a traumatic event, such as war, a hurricane, rape, physical abuse or a bad accident. 
-              <br><br>
-              <a href="https://www.mentalhealth.gov/what-to-look-for/post-traumatic-stress-disorder"> Learn More</a>
-            </p>
           </div>
         </div>
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "behavioral.jpg" class = "info-img">
+            <h4>Behavioral Disorders</h4>
+            <p>Behavioral disorders involve a pattern of disruptive behaviors in children that last for at least 6 months and cause problems in school, at home and in social situations.
+            <br>
+            <a href="https://www.mentalhealth.gov/what-to-look-for/behavioral-disorders"> Learn More</a> </p>
+          </div>
+        </div>
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "eating.jpg " class = "info-img">
+            <h4>Eating Disorders Disorders</h4>
+            <p>Eating disorders involve extreme emotions, attitudes, and behaviors involving weight and food.
+            <br>
+            <a href="https://www.mentalhealth.gov/what-to-look-for/eating-disorders"> Learn More</a>
+            </p>
+            
+          </div>
+        </div>
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "substance.jpeg" class = "info-img">
+            <h4>Substance Use Disorders</h4>
+            <p>Substance use disorders can refer to substance use or substance dependence.
+            <br>
+            <a href="https://www.mentalhealth.gov/what-to-look-for/mental-health-substance-use-disorders"> Learn More</a>
+            </p>      
+          </div>
+        </div>
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "mood.jpg" class = "info-img">
+            <h4>Mood Disorders</h4>
+            <p>If you have a mood disorder, your general emotional state or mood is distorted or inconsistent with your circumstances and interferes with your ability to function.
+            <br>
+            <a href="https://www.mentalhealth.gov/what-to-look-for/mood-disorders"> Learn More</a></p>
+          </div>
+        </div>
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "personality.jpg" class = "info-img">
+            <h4>Personality Disorders</h4>
+            <p>Personality disorders are conditions in which an individual differs significantly from an average person, in terms of how they think, perceive, feel or relate to others.
+            <br>
+            <a href="https://www.mentalhealth.gov/what-to-look-for/personality-disorders">Learn More</a></p>
+          </div>
+        </div>
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "psychotic.jpeg" class = "info-img">
+            <h4>Psychotic  Disorders</h4>
+            <p>People with a psychotic disorder may be convinced that someone is spying on them or following them, may hear voices or have the feeling that others are manipulating their thoughts.  
+            <br>    
+            <a href="https://www.mentalhealth.gov/what-to-look-for/psychotic-disorders">Learn More</a></p>
+          </div>
+        </div>
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "self harm.jpg" class = "info-img">
+            <h4>Self-Harm</h4>
+            <p>Self-harm refers to a person's harming their own body on purpose. 
+            <br>   
+            <a href="https://www.mentalhealth.gov/what-to-look-for/self-harm"> Learn More</a></p> 
+          </div>
+        </div>
+        <div class = "col-md-4">
+          <div class = "box">
+            <img src = "suicidal.jpg" class = "info-img">
+            <h4>Suicidal Behavior</h4>
+            <p>Suicide causes immeasurable pain, suffering, and loss to individuals, families, and communities nationwide. 
+            <br>
+            <a href="https://www.mentalhealth.gov/what-to-look-for/suicidal-behavior"> Learn More</a> </p>
+          </div>
+        </div>
+        <div class = "col-md-4 mx-auto">
+          <div class = "box">
+            <img src = "post traumatic.jpg" class = "info-img">
+            <h4>Post-Traumatic Stress Disorder (PTSD) </h4>
+            <p>You can get PTSD after living through or seeing a traumatic event, such as war, a hurricane, rape, physical abuse or a bad accident. 
+            <br>
+            <a href="https://www.mentalhealth.gov/what-to-look-for/post-traumatic-stress-disorder"> Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Stress test quiz  -->
-        <div class="container">
-          <section>
-            <h2>Take a Stress Test</h2>
-            <p>Take this quiz to measure your stress level and get tips for reducing stress.</p>
-            <button onclick="location.href='stress-test.php'">Take Quiz</button>
-          </section>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="stress-test-box">
+          <div class="text-center">
+            <h2 class="title mb-4">Take a Stress Test</h2>
+            <p class="text">Take this quiz to measure your stress level and get tips for reducing stress.</p>
+            <button class="btn btn-primary" onclick="location.href='stress-test.php'">Take Quiz</button>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+
 
 </body>
+
+</html> 
