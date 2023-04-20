@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
    
 <style>
   .item1 {
@@ -73,7 +75,7 @@
   <h3 class=point>  1. Coronavirus Disease (Covid 19)</h3>
   <div class="grid-container">
     <div div class=item1 >
-      <image src="images/Covid 19.jpg" width=300 height=200>
+      <image src="images/Covid 19.jpg" class="rounded"  width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -89,7 +91,7 @@
  <h3 class=point>  2. MonkeyPox (Mpox)</h3>
   <div class="grid-container">
     <div div class=item1 >
-      <image src="images/Monkeypox.jpg" width=300 height=200>
+      <image src="images/Monkeypox.jpg" class="rounded"  width=300 height=200>
     </div>
     <p class=p1> 
       <?php
@@ -105,7 +107,7 @@
  <h3 class=point>  3. Marburg Virus Disease (MVD)</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="images/marburg.jpg" width=300 height=200>
+      <image src="images/marburg.jpg" class="rounded"  width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -121,7 +123,7 @@
   <h3 class=point>  4. Measles</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="images/Measles.jpg" width=300 height=200>
+      <image src="images/Measles.jpg" class="rounded"  width=300 height=200>
     </div>
         <p class=p1>  
           <?php
@@ -137,7 +139,7 @@
   <h3 class=point>  5. Avian Influenza A (H5N1)</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="images/H5N1.jpg" width=300 height=200>
+      <image src="images/H5N1.jpg" class="rounded"  width=300 height=200>
     </div>
         <p class=p1>  
           <?php
