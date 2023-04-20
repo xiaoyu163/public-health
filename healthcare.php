@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
   <style>
     body {
@@ -76,7 +77,7 @@
   <h3> Eat A Healthy Diet</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Healthy Diet.jpg" width=300 height=150>
+      <image src="images/Healthy Diet.jpg" class="img-thumbnail" width=300 height=150>
     </div>
     <div class="main">
       <p>
@@ -94,7 +95,7 @@
   <h3 class="text-center"> Reduce Intake Of harmful Fats</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Harmful Fat.jpg" width=300 height=150>
+      <image src="images/Harmful Fat.jpg" class="img-thumbnail" width=300 height=150>
     </div>
     <div class="main">
       <p>
@@ -112,7 +113,7 @@
   <h3 class="text-center"> Exercise Regularly</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Exercise.jpg" width=300 height=150>
+      <image src="images/Exercise.jpg" class="img-thumbnail" width=300 height=150>
     </div>
     <div class="main">
       <p>
@@ -130,7 +131,7 @@
   <h3 class="text-center"> Consume Less Salt And Sugar</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Salt And Sugar.jpg" width=300 height=150>
+      <image src="images/Salt And Sugar.jpg" class="img-thumbnail" width=300 height=150>
     </div>
     <div class="main">
       <p>
@@ -148,7 +149,7 @@
   <h3 class="text-center"> Avoid Accessing Drinking Of Alcohol</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Alcohol.jpg" width=300 height=150>
+      <image src="images/Alcohol.jpg" class="img-thumbnail" width=300 height=150>
     </div>
     <div class="main">
       <p>
@@ -166,7 +167,7 @@
   <h3 class="text-center"> Quit Smoking</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Smoking.jpg" width=300 height=150>
+      <image src="images/Smoking.jpg" class="img-thumbnail" width=300 height=150>
     </div>
     <div class="main">
       <p>
@@ -184,7 +185,7 @@
   <h3 class="text-center"> Regular Body Checkup</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Body Checkup.jpg" width=300 height=150>
+      <image src="images/Body Checkup.jpg" class="img-thumbnail" width=300 height=150>
     </div>
     <div class="main">
       <p>
