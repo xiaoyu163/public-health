@@ -27,7 +27,7 @@
         font-weight:bolder;
     }
 
-    .centered h4 {
+    .centered h6 {
        
        font-weight:light;
        text-align: justify;
@@ -69,10 +69,10 @@
                 Access to healthcare is important for maintaining good health, preventing and managing chronic diseases, and treating acute illnesses and injuries.
             </p>
 
-            <h4><i>
+            <h6><i>
                 The availability and accessibility of healthcare services can have a significant impact on the overall health and well-being of communities. Public health and healthcare access are closely related, 
                 as efforts to improve healthcare access often involve public health strategies, such as community-based interventions, health education, and policy advocacy.
-            </i></h4>
+            </i></h6>
         </div>
     </div>
 

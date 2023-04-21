@@ -47,7 +47,7 @@
 
     <div class="row">
         <div class="col-md-3">
-            <div class="card">
+            <div class="card bg-light">
                 <img class="card-img-top" src="images/heart.png" alt="Heart.">
                 <div class="card-header">
                     <h3>Heart Disease</h3>
@@ -61,7 +61,7 @@
         </div>
 
         <div class="col-md-3">
-            <div class="card h-200">
+            <div class="card bg-light">
                 <img class="card-img-top" src="images/diabetes.png" alt="Blood sugar meter.">
                 <div class="card-header">
 
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card">
+            <div class="card bg-light">
                 <img class="card-img-top" src="images/blood-pressure.png" alt="Blood pressure meter.">
                 <div class="card-header">
                     <h3>Hypertension</h3>
@@ -87,7 +87,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card">
+            <div class="card bg-light">
                 <img class="card-img-top" src="images/obesity.png" alt="Obese man.">
                 <div class="card-header">
 
@@ -105,7 +105,7 @@
 
     <div class="row">
         <div class="col-md-3">
-            <div class="card">
+            <div class="card bg-light">
                 <img class="card-img-top" src="images/cancer.png" alt="Cancer.">
 
                 <div class="card-header">
@@ -119,7 +119,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card">
+            <div class="card bg-light">
                 <img class="card-img-top" src="images/influenza.png" alt="Flu.">
                 <div class="card-header">
 
@@ -133,7 +133,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card">
+            <div class="card bg-light">
                 <img class="card-img-top" src="images/HIV.png" alt="HIV.">
                 <div class="card-header">
 
@@ -148,7 +148,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card">
+            <div class="card bg-light">
                 <img class="card-img-top" src="images/alzheimer.png" alt="Alzheimer.">
                 <div class="card-header">
 
