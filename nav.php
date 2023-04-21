@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <style>
+    .nav-header {
+        padding-top: 20px;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .nav-subheader {
+        font-weight: bold;
+        padding-bottom: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
     a {
         text-decoration:none;
-    }
-
-    .header {
-        font-family:'Times New Roman', Times, serif;
-    }
-
-    .subheader{
-        font-family:'Times New Roman', Times, serif;
-        font-weight: lighter;
     }
 
     /* Background color for top navigation */
@@ -46,8 +49,8 @@
         <meta charset="utf-8">
         <title>Public Health and Healthcare Access</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <h1 class="header"><center>Public Health and Healthcare Access</center></h1>
-        <h4 class="header"><center><i>Better Healthcare, Better Tomorrow</i></center></h4>
+        <h1 class="nav-header"><center>Public Health and Healthcare Access</center></h1>
+        <h4 class="nav-subheader"><center><i>Better Healthcare, Better Tomorrow</i></center></h4>
     </head>
     <body>
         <?php

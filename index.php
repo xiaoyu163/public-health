@@ -23,7 +23,7 @@
     }
 
     .centered h2 {
-       
+        font-family: 'Times New Roman', Times, serif;
         font-weight:bolder;
     }
 
@@ -44,11 +44,16 @@
 
 
 </style>
-<body>
-    <?php 
-        include 'nav.php';
-    ?>
 
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <?php
+    include 'nav.php';
+    ?>
+</head>
+
+<body>
     <div class="container">
         <img src="images/health.png">
         <div class="centered">
