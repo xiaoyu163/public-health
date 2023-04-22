@@ -11,9 +11,15 @@
         margin-bottom: 50px;
     }
 
+    .btn:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+
     .card-text {
         text-align: justify;
     }
+
 
     p {
         height:110px;
@@ -47,7 +53,7 @@
 
     <div class="row">
         <div class="col-md-3">
-            <div class="card bg-light">
+            <div class="card bg-light shadow p-3 mb-5 bg-white rounded">
                 <img class="card-img-top" src="images/heart.png" alt="Heart.">
                 <div class="card-header">
                     <h3>Heart Disease</h3>
@@ -61,7 +67,7 @@
         </div>
 
         <div class="col-md-3">
-            <div class="card bg-light">
+            <div class="card bg-light shadow p-3 mb-5 bg-white rounded">
                 <img class="card-img-top" src="images/diabetes.png" alt="Blood sugar meter.">
                 <div class="card-header">
 
@@ -74,7 +80,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card bg-light">
+            <div class="card bg-light shadow p-3 mb-5 bg-white rounded">
                 <img class="card-img-top" src="images/blood-pressure.png" alt="Blood pressure meter.">
                 <div class="card-header">
                     <h3>Hypertension</h3>
@@ -87,7 +93,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card bg-light">
+            <div class="card bg-light shadow p-3 mb-5 bg-white rounded">
                 <img class="card-img-top" src="images/obesity.png" alt="Obese man.">
                 <div class="card-header">
 
@@ -105,7 +111,7 @@
 
     <div class="row">
         <div class="col-md-3">
-            <div class="card bg-light">
+            <div class="card bg-light shadow p-3 mb-5 bg-white rounded">
                 <img class="card-img-top" src="images/cancer.png" alt="Cancer.">
 
                 <div class="card-header">
@@ -119,7 +125,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card bg-light">
+            <div class="card bg-light shadow p-3 mb-5 bg-white rounded">
                 <img class="card-img-top" src="images/influenza.png" alt="Flu.">
                 <div class="card-header">
 
@@ -133,7 +139,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card bg-light">
+            <div class="card bg-light shadow p-3 mb-5 bg-white rounded">
                 <img class="card-img-top" src="images/HIV.png" alt="HIV.">
                 <div class="card-header">
 
@@ -148,7 +154,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card bg-light">
+            <div class="card bg-light shadow p-3 mb-5 bg-white rounded">
                 <img class="card-img-top" src="images/alzheimer.png" alt="Alzheimer.">
                 <div class="card-header">
 

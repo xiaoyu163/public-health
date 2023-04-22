@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<?php
+include 'nav.php';
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Public Health and Healthcare Acces</title>
+
     <style>
     body{
         font-family: Time News Roman;
@@ -165,9 +170,7 @@
     </style>
 </head>
 <body> 
-    <?php 
-        include 'nav.php';
-    ?>
+    
 
     <header>
         <h1>Healthcare Access</h1>

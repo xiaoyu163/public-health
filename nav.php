@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <style>
     .nav-header {
-        padding-top: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         font-weight: bold;
         font-family:'Times New Roman', Times, serif;
     }
 
     .nav-subheader {
         font-weight: bold;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
         font-family:'Times New Roman', Times, serif;
     }
 
