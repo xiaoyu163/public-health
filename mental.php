@@ -51,7 +51,6 @@ include 'nav.php';
       border-radius: 15px;
       height: 100%;
       padding: 15px;
-      overflow: scroll;
     }
 
     .stress-test-box {
