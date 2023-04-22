@@ -73,11 +73,11 @@
   </header>
   <br>
 
-  <!--Point 1-->
+ <!--Point 1-->
   <h3> Eat A Healthy Diet</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Healthy Diet.jpg" class="img-thumbnail" width=300 height=150>
+      <image src="images/Healthy Diet.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet">Learn More</a>
     </div>
     <div class="main">
       <p>
@@ -95,7 +95,7 @@
   <h3 class="text-center"> Reduce Intake Of harmful Fats</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Harmful Fat.jpg" class="img-thumbnail" width=300 height=150>
+      <image src="images/Harmful Fat.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.texasheart.org/heart-health/heart-information-center/topics/14-simple-ways-to-reduce-saturated-fat/#:~:text=14%20Simple%20Ways%20to%20Reduce%20Saturated%20Fat%201,whites%20instead%20of%20one%20whole%20egg.%20More%20items">Learn More</a>
     </div>
     <div class="main">
       <p>
@@ -113,7 +113,7 @@
   <h3 class="text-center"> Exercise Regularly</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Exercise.jpg" class="img-thumbnail" width=300 height=150>
+      <image src="images/Exercise.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.cdc.gov/physicalactivity/basics/age-chart.html#:~:text=Physical%20Activity%20for%20Different%20Groups%201%20Preschool-Aged%20Children,5%20Adults%20with%20Chronic%20Conditions%20and%20Disabilities%20">Learn More</a>
     </div>
     <div class="main">
       <p>
@@ -131,7 +131,7 @@
   <h3 class="text-center"> Consume Less Salt And Sugar</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Salt And Sugar.jpg" class="img-thumbnail" width=300 height=150>
+      <image src="images/Salt And Sugar.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.dallasnews.com/news/healthy-living/2013/04/15/the-dangers-of-salt-and-sugar-and-how-to-protect-yourself/">Learn More</a>
     </div>
     <div class="main">
       <p>
@@ -149,7 +149,7 @@
   <h3 class="text-center"> Avoid Accessing Drinking Of Alcohol</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Alcohol.jpg" class="img-thumbnail" width=300 height=150>
+      <image src="images/Alcohol.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.health.harvard.edu/staying-healthy/11-ways-to-curb-your-drinking">Learn More</a>
     </div>
     <div class="main">
       <p>
@@ -167,7 +167,7 @@
   <h3 class="text-center"> Quit Smoking</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Smoking.jpg" class="img-thumbnail" width=300 height=150>
+      <image src="images/Smoking.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://ourworldindata.org/smoking#the-global-distribution-of-smoking-deaths">Learn More</a>
     </div>
     <div class="main">
       <p>
@@ -185,7 +185,7 @@
   <h3 class="text-center"> Regular Body Checkup</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Body Checkup.jpg" class="img-thumbnail" width=300 height=150>
+      <image src="images/Body Checkup.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.healthline.com/health/how-often-should-you-get-routine-checkups-at-the-doctor#:~:text=Regular%20checkups%20with%20your%20healthcare%20provider%20can%20benefit,which%20increases%20the%20odds%20of%20a%20good%20outcome">Learn More</a>
     </div>
     <div class="main">
       <p>
