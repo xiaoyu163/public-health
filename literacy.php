@@ -15,9 +15,9 @@ include 'nav.php';
         }
 
         .card {
-            width: 400px;
+            width: 325px;
             height: 600px;
-            margin-left: 40px;
+            margin-left: 20px;
             margin-bottom: 50px;
         }
 
