@@ -28,7 +28,7 @@
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
-        font-size: 17px;
+        font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
     /* Color of links when hover */
