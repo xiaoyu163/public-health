@@ -49,7 +49,7 @@
     <head>
         <meta charset="utf-8">
         <title>Public Health and Healthcare Access</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="icon"  href="/images/favicon.jpg">
         <h1 class="nav-header"><center>Public Health and Healthcare Access</center></h1>
         <h4 class="nav-subheader"><center><i>Better Healthcare, Better Tomorrow</i></center></h4>
     </head>
