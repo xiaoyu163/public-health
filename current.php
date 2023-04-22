@@ -61,6 +61,7 @@ include 'nav.php';
       text-align: left;
       position: relative;
       font-family: 'Times New Roman', Times, serif;
+        padding-left: 1%;
     }
   </style>
 </head>
