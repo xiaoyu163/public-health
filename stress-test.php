@@ -11,6 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 
+<?php
+include 'nav.php';
+?>
+
 <head>
   <title>Stress Test</title>
   <meta charset="UTF-8">
@@ -55,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <section id="test" class="py-5">
       <div class="test-container">
-        <?php if ($score == 0) : ?>
+        <?php if ($score == 0): ?>
           <form method="post">
             <div class="mb-3">
               <h2>Question 1</h2>
@@ -97,20 +101,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <button type="submit" class="btn btn-primary">Submit</button>
               </div>
             </form>
-          <?php else : ?>
+          <?php else: ?>
             <div class="result">
-              <h2>Your Stress Level is <?php echo $score; ?></h2>
+              <h2>Your Stress Level is
+                <?php echo $score; ?>
+              </h2>
               <br>
-              <?php if ($score < 5) : ?>
+              <?php if ($score < 5): ?>
                 <p>You're doing a good job of managing stress! Keep it up!</p>
-              <?php elseif ($score < 8) : ?>
+              <?php elseif ($score < 8): ?>
                 <p>You could use some help managing stress. Here are some tips:</p>
                 <ul>
                   <li>Exercise regularly</li>
                   <li>Meditate or do deep breathing exercises</li>
                   <li>Talk to a therapist or counselor</li>
                 </ul>
-              <?php else : ?>
+              <?php else: ?>
                 <p>Your stress level is high. It's important to take action to manage stress. Here are some tips:</p>
                 <ul>
                   <li>Practice stress-reducing activities such as yoga or meditation</li>

@@ -1,65 +1,65 @@
 <!DOCTYPE html>
-
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    font-family: sans-serif;
-  }
-
-  #banner {
-    background-color: #bbe5e1;
-    color: #27407E;
-    padding-top: 5%;
-  }
-
-  .website-title {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-    font-weight: 600;
-    margin-top: 100px;
-  }
-
-  .info-img {
-    width: 100%;
-    height: 50%;
-  }
-
-  .row-flex {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  [class*="col-"] {
-    padding: 30px;
-  }
-
-  .box {
-    background-color: #fff4df;
-    border-radius: 15px;
-    height: 100%;
-    padding: 15px;
-    overflow: scroll;
-  }
-
-  .stress-test-box {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    padding: 15px;
-  }
-</style>
+<?php
+include 'nav.php';
+?>
 
 <head>
-  <?php
-  include 'nav.php';
-  ?>
   <title> Mental Health </title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    #banner {
+      background-color: #bbe5e1;
+      color: #27407E;
+      padding-top: 5%;
+    }
+
+    .website-title {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 70px;
+      font-weight: 600;
+      margin-top: 100px;
+    }
+
+    .info-img {
+      width: 100%;
+      height: 50%;
+    }
+
+    .row-flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    [class*="col-"] {
+      padding: 30px;
+    }
+
+    .box {
+      background-color: #fff4df;
+      border-radius: 15px;
+      height: 100%;
+      padding: 15px;
+      overflow: scroll;
+    }
+
+    .stress-test-box {
+      background-color: #f2f2f2;
+      border-radius: 15px;
+      padding: 15px;
+    }
+  </style>
 </head>
 
 <body>

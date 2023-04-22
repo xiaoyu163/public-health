@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+include 'nav.php';
+?>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
   <style>
     body {
@@ -23,7 +28,7 @@
       text-align: center;
       position: relative;
       font-family: 'Times New Roman', Times, serif;
-      color:#d0e1e1;
+      color: #d0e1e1;
     }
 
     /* Column container */
@@ -32,26 +37,26 @@
       flex-wrap: wrap;
     }
 
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-  .side {
-    flex: 20%;
-    padding: 50px;
-    background-color: rgb(198, 216, 235, 0.95);
-    border: 2px solid rgb(238, 232, 232);
-    text-align: center;
-  }
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 20%;
+      padding: 50px;
+      background-color: rgb(198, 216, 235, 0.95);
+      border: 2px solid rgb(238, 232, 232);
+      text-align: center;
+    }
 
-  /* Main column */
-  .main {
-    flex: 60%;
-    padding: 60px;
-    background-color: rgb(217, 229, 242, 0.95);
-    border: 2px solid rgb(238, 232, 232);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    word-spacing: 5px;
-  }
+    /* Main column */
+    .main {
+      flex: 60%;
+      padding: 60px;
+      background-color: rgb(217, 229, 242, 0.95);
+      border: 2px solid rgb(238, 232, 232);
+      font-family: 'Times New Roman', Times, serif;
+      font-size: larger;
+      word-spacing: 5px;
+    }
 
     h3 {
       color: #d0e1e1;
@@ -61,9 +66,6 @@
       font-family: 'Times New Roman', Times, serif;
     }
   </style>
-  <?php
-  include 'nav.php';
-  ?>
 </head>
 
 <body class=bg1>
@@ -73,11 +75,13 @@
   </header>
   <br>
 
- <!--Point 1-->
+  <!--Point 1-->
   <h3> Eat A Healthy Diet</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Healthy Diet.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet">Learn More</a>
+      <image src="images/Healthy Diet.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a
+          class="btn btn-outline-primary" href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet">Learn
+          More</a>
     </div>
     <div class="main">
       <p>
@@ -95,7 +99,10 @@
   <h3 class="text-center"> Reduce Intake Of harmful Fats</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Harmful Fat.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.texasheart.org/heart-health/heart-information-center/topics/14-simple-ways-to-reduce-saturated-fat/#:~:text=14%20Simple%20Ways%20to%20Reduce%20Saturated%20Fat%201,whites%20instead%20of%20one%20whole%20egg.%20More%20items">Learn More</a>
+      <image src="images/Harmful Fat.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a
+          class="btn btn-outline-primary"
+          href="https://www.texasheart.org/heart-health/heart-information-center/topics/14-simple-ways-to-reduce-saturated-fat/#:~:text=14%20Simple%20Ways%20to%20Reduce%20Saturated%20Fat%201,whites%20instead%20of%20one%20whole%20egg.%20More%20items">Learn
+          More</a>
     </div>
     <div class="main">
       <p>
@@ -113,7 +120,10 @@
   <h3 class="text-center"> Exercise Regularly</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Exercise.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.cdc.gov/physicalactivity/basics/age-chart.html#:~:text=Physical%20Activity%20for%20Different%20Groups%201%20Preschool-Aged%20Children,5%20Adults%20with%20Chronic%20Conditions%20and%20Disabilities%20">Learn More</a>
+      <image src="images/Exercise.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a
+          class="btn btn-outline-primary"
+          href="https://www.cdc.gov/physicalactivity/basics/age-chart.html#:~:text=Physical%20Activity%20for%20Different%20Groups%201%20Preschool-Aged%20Children,5%20Adults%20with%20Chronic%20Conditions%20and%20Disabilities%20">Learn
+          More</a>
     </div>
     <div class="main">
       <p>
@@ -131,7 +141,10 @@
   <h3 class="text-center"> Consume Less Salt And Sugar</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Salt And Sugar.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.dallasnews.com/news/healthy-living/2013/04/15/the-dangers-of-salt-and-sugar-and-how-to-protect-yourself/">Learn More</a>
+      <image src="images/Salt And Sugar.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a
+          class="btn btn-outline-primary"
+          href="https://www.dallasnews.com/news/healthy-living/2013/04/15/the-dangers-of-salt-and-sugar-and-how-to-protect-yourself/">Learn
+          More</a>
     </div>
     <div class="main">
       <p>
@@ -149,7 +162,9 @@
   <h3 class="text-center"> Avoid Accessing Drinking Of Alcohol</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Alcohol.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.health.harvard.edu/staying-healthy/11-ways-to-curb-your-drinking">Learn More</a>
+      <image src="images/Alcohol.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a
+          class="btn btn-outline-primary"
+          href="https://www.health.harvard.edu/staying-healthy/11-ways-to-curb-your-drinking">Learn More</a>
     </div>
     <div class="main">
       <p>
@@ -167,7 +182,9 @@
   <h3 class="text-center"> Quit Smoking</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Smoking.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://ourworldindata.org/smoking#the-global-distribution-of-smoking-deaths">Learn More</a>
+      <image src="images/Smoking.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a
+          class="btn btn-outline-primary"
+          href="https://ourworldindata.org/smoking#the-global-distribution-of-smoking-deaths">Learn More</a>
     </div>
     <div class="main">
       <p>
@@ -185,7 +202,10 @@
   <h3 class="text-center"> Regular Body Checkup</h3>
   <div class="row">
     <div class="side">
-      <image src="images/Body Checkup.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a class="btn btn-outline-primary" href="https://www.healthline.com/health/how-often-should-you-get-routine-checkups-at-the-doctor#:~:text=Regular%20checkups%20with%20your%20healthcare%20provider%20can%20benefit,which%20increases%20the%20odds%20of%20a%20good%20outcome">Learn More</a>
+      <image src="images/Body Checkup.jpg" class="img-thumbnail" width=300 height=150> <br><br> <a
+          class="btn btn-outline-primary"
+          href="https://www.healthline.com/health/how-often-should-you-get-routine-checkups-at-the-doctor#:~:text=Regular%20checkups%20with%20your%20healthcare%20provider%20can%20benefit,which%20increases%20the%20odds%20of%20a%20good%20outcome">Learn
+          More</a>
     </div>
     <div class="main">
       <p>

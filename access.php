@@ -11,171 +11,168 @@ include 'nav.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
     <style>
-    body{
-        font-family: Time News Roman;
-    }
+        body{
+            font-family: Time News Roman;
+        }
 
-    .sub-section-1 {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       margin: 20px;
-   }
+        .sub-section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        }
 
-    h2 {
-       font-size: 24px;
-       margin-bottom: 10px;
-    }
+        h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        }
 
-    label {
-       font-size: 16px;
-       font-weight: bold;
-       margin-bottom: 5px;
-    }
+        label {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        }
 
-    select {
-       padding: 8px 12px;
-       color:#333333;
-       background-color: #F0FFF9;
-       border: 1px solid #dddddd;
-       cursor:pointer;
-       border-radius: 5px;
-    }
+        select {
+        padding: 8px 12px;
+        color:#333333;
+        background-color: #F0FFF9;
+        border: 1px solid #dddddd;
+        cursor:pointer;
+        border-radius: 5px;
+        }
 
-    .collapsible{
-        background-color: #ADEADC;
-        color: black;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 18px;
-        font-family: 'Times New Roman';
-    }
+        .collapsible{
+            background-color: #ADEADC;
+            color: black;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 18px;
+            font-family: 'Times New Roman';
+        }
 
-    .active, .collapsible :hover{
-        background-color: #ADEADC;
-    }
+        .active, .collapsible :hover{
+            background-color: #ADEADC;
+        }
 
-    .content{
-        padding: 0 18px;
-        display: none;
-        overflow: hidden;
-        background-color: #EDECEC;
-    }
+        .content{
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #EDECEC;
+        }
+        
+        .container2{
+            background-color: #FFFEFE;
+            padding:15px 9%;
+            padding-bottom: 60px;
+            border-radius: 5px;        
+        }
+
+        .heading{
+            text-align: left;
+            padding-bottom: 5px;
+            color:#fff;
+            text-shadow: 0 5px 10px rgba(0,0,0,.2);
+            font-size: 30px;
+            text-align: center;
+        }
     
-    .container2{
-       background-color: #FFFEFE;
-       padding:15px 9%;
-       padding-bottom: 60px;
-       border-radius: 5px;
-      
-    }
+        .container{
+            background-color: #B9DBCF;
+            padding:15px 9%;
+            padding-bottom: 70px;
+            border-radius: 10px;
+        }
 
-    .heading{
-       text-align: left;
-       padding-bottom: 5px;
-       color:#fff;
-       text-shadow: 0 5px 10px rgba(0,0,0,.2);
-       font-size: 30px;
-       text-align: center;
-    }
- 
-    .container{
-       background-color: #B9DBCF;
-       padding:15px 9%;
-       padding-bottom: 70px;
-       border-radius: 10px;
-    }
+        .container .heading{
+            text-align: left;
+            padding-bottom: 15px;
+            color:#fff;
+            text-shadow: 0 5px 10px rgba(0,0,0,.2);
+            font-size: 30px;
+        }
 
-    .container .heading{
-       text-align: left;
-       padding-bottom: 15px;
-       color:#fff;
-       text-shadow: 0 5px 10px rgba(0,0,0,.2);
-       font-size: 30px;
-    }
+        .container .box-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap:50px;
+        }
 
-   .container .box-container{
-       display: grid;
-       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-       gap:50px;
-    }
+        .container .box-container .box{
+            box-shadow: 0 5px 10px rgba(0,0,0,.2);
+            border-radius: 5px;
+            background: #fff;
+            text-align: center;
+            padding:30px 20px;
+        }
 
-   .container .box-container .box{
-       box-shadow: 0 5px 10px rgba(0,0,0,.2);
-       border-radius: 5px;
-       background: #fff;
-       text-align: center;
-       padding:30px 20px;
-   }
+        .container .box-container .box img{
+            height: 80px;
+        }
 
-   .container .box-container .box img{
-       height: 80px;
-   }
+        .container .box-container .box h3{
+            color:#444;
+            font-size: 22px;
+            padding:10px 0;
+        }
 
-   .container .box-container .box h3{
-       color:#444;
-       font-size: 22px;
-       padding:10px 0;
-   }
+        .container .box-container .box p{
+            color:#777;
+            font-size: 15px;
+            line-height: 1.8;
+        }
 
-   .container .box-container .box p{
-       color:#777;
-       font-size: 15px;
-       line-height: 1.8;
-   }
+        .container .box-container .box .btn{
+            margin-top: 10px;
+            display: inline-block;
+            background:#333;
+            color:#fff;
+            font-size: 17px;
+            border-radius: 5px;
+            padding: 8px 25px;
+            
+        }
 
-   .container .box-container .box .btn{
-       margin-top: 10px;
-       display: inline-block;
-       background:#333;
-       color:#fff;
-       font-size: 17px;
-       border-radius: 5px;
-       padding: 8px 25px;
-     
-   }
+        .container .box-container .box .btn:hover{
+            letter-spacing: 1px;
+        }
 
-   .container .box-container .box .btn:hover{
-       letter-spacing: 1px;
-   }
+        .container .box-container .box:hover{
+            box-shadow: 0 10px 15px rgba(0,0,0,.3);
+            transform: scale(1.03);
+        }
 
-   .container .box-container .box:hover{
-       box-shadow: 0 10px 15px rgba(0,0,0,.3);
-       transform: scale(1.03);
-   }
+        @media (max-width:768px){
+            .container{
+                padding:20px;
+            }
+        }
 
-   @media (max-width:768px){
-       .container{
-           padding:20px;
-       }
-   }
-
-   header {
-      background-color: #bbe5e1;
-      background-image: url(''),url('images/healthcare.png');
-      background-size: contain, contain;
-      background-repeat: no-repeat,no-repeat;
-      background-position: left, right;
-      position: relative;
-      padding: 100px;
-      font-family: Times;
-      font-size : 30px;
-      color: #27407E;
-    }
-
+        header {
+            background-color: #bbe5e1;
+            background-image: url(''),url('images/healthcare.png');
+            background-size: contain, contain;
+            background-repeat: no-repeat,no-repeat;
+            background-position: left, right;
+            position: relative;
+            padding: 100px;
+            font-family: Times;
+            font-size : 30px;
+            color: #27407E;
+        }
     </style>
 </head>
-<body> 
-    
 
+<body>    
     <header>
         <h1>Healthcare Access</h1>
-      
     </header>
+    
 </br> 
     
     <h2 class="heading" style="color: black">Healthcare Facilities - Hospital</h2>    
