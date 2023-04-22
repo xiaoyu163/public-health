@@ -109,7 +109,7 @@ include 'nav.php';
         <div class="col-md-4">
           <div class="box">
             <img src="images/eating.jpg " class="info-img">
-            <h4>Eating Disorders Disorders</h4>
+            <h4>Eating Disorders</h4>
             <p>Eating disorders involve extreme emotions, attitudes, and behaviors involving weight and food.
               <br>
               <a href="https://www.mentalhealth.gov/what-to-look-for/eating-disorders"> Learn More</a>
