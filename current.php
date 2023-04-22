@@ -75,14 +75,14 @@
   <h3 class=point>  1. Coronavirus Disease (Covid 19)</h3>
   <div class="grid-container">
     <div div class=item1 >
-      <image src="images/Covid 19.jpg" class="rounded"  width=300 height=200>
+      <image src="images/Covid 19.jpg" class="rounded"  width=300 height=200> <br> <a class="btn btn-outline-primary" href="https://www.mayoclinic.org/diseases-conditions/coronavirus/symptoms-causes/syc-20479963">Learn More</a>
     </div>
         <p class=p1>  
           <?php
           $str1="Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. On the 31st of December, the World Health Organization (WHO) was notified of cases of pneumonia in Wuhan, China and this information led to the first confirmed cases of COVID-19. Coronavirus diseases are distributed globally except for some countries such as North Korea and islands located in Pacific. The virus of this disease spreads easily from person to person through nose, mouth, and eye. The common signs of coronavirus are fever, cough, running nose, and tiredness. Vaccination is the only Covid-19 prevention measure. However, vaccinated people will also have the chance to be infected. Antiviral medications have been approved by the FDA to treat mild to moderate COVID-19 in those who are more prone to become seriously ill. ";
           print $str1;
           ?>
-        </p>
+        </p> 
   </div>
   <br>
 
@@ -91,7 +91,7 @@
  <h3 class=point>  2. MonkeyPox (Mpox)</h3>
   <div class="grid-container">
     <div div class=item1 >
-      <image src="images/Monkeypox.jpg" class="rounded"  width=300 height=200>
+      <image src="images/Monkeypox.jpg" class="rounded"  width=300 height=200> <br> <a class="btn btn-outline-primary" href="https://www.who.int/news-room/fact-sheets/detail/monkeypox">Learn More</a>
     </div>
     <p class=p1> 
       <?php
@@ -107,7 +107,7 @@
  <h3 class=point>  3. Marburg Virus Disease (MVD)</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="images/marburg.jpg" class="rounded"  width=300 height=200>
+      <image src="images/marburg.jpg" class="rounded"  width=300 height=200> <br> <a class="btn btn-outline-primary" href="https://www.cdc.gov/vhf/marburg/outbreaks/chronology.html">Learn More</a>
     </div>
         <p class=p1>  
           <?php
@@ -123,7 +123,7 @@
   <h3 class=point>  4. Measles</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="images/Measles.jpg" class="rounded"  width=300 height=200>
+      <image src="images/Measles.jpg" class="rounded"  width=300 height=200> <br> <a class="btn btn-outline-primary" href="https://www.mayoclinic.org/diseases-conditions/measles/symptoms-causes/syc-20374857">Learn More</a>
     </div>
         <p class=p1>  
           <?php
@@ -139,7 +139,7 @@
   <h3 class=point>  5. Avian Influenza A (H5N1)</h3>
   <div class="grid-container">
     <div class=item1 >
-      <image src="images/H5N1.jpg" class="rounded"  width=300 height=200>
+      <image src="images/H5N1.jpg" class="rounded"  width=300 height=200> <br> <a class="btn btn-outline-primary" href="https://www.who.int/news-room/questions-and-answers/item/influenza-h5n1">Learn More</a>
     </div>
         <p class=p1>  
           <?php
