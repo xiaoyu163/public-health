@@ -66,12 +66,21 @@ include 'nav.php';
             background-color: #EDECEC;
         }
         
-        .container2{
-            background-color: #FFFEFE;
-            padding:15px 9%;
-            padding-bottom: 60px;
-            border-radius: 5px;        
-        }
+          .container1{
+       background-color: #FFFEFE;
+       padding:15px 8%;
+       padding-bottom: 60px;
+       border-radius: 5px;
+      
+    }
+    
+    .container2{
+       background-color: #FFFEFE;
+       padding:15px ;
+       padding-bottom: 60px;
+       border-radius: 5px;
+      
+    }
 
         .heading{
             text-align: left;
@@ -177,7 +186,7 @@ include 'nav.php';
     
     <h2 class="heading" style="color: black">Healthcare Facilities - Hospital</h2>    
     <!--dropdown list--> 
-    <div class="container2">
+    <div class="container1">
      <div class="box-container">
         </div>
         <button type="button" class="collapsible">Johor</button>
