@@ -143,8 +143,7 @@ include 'nav.php';
                 <div class="card-body">
                     <p class="card-text">
                         Influenza is a contagious respiratory illness caused by influenza viruses that infect the nose,
-                        throat, and sometimes the lungs. It can cause mild to severe illness, and at times can lead to
-                        death. </p>
+                        throat, and sometimes the lungs.</p>
                     <a class="btn btn-primary" href="https://medlineplus.gov/flu.html">Learn More</a>
                 </div>
             </div>
@@ -158,8 +157,7 @@ include 'nav.php';
                 <div class="card-body">
                     <p class="card-text">
                         HIV harms your immune system by destroying a type of white blood cell that helps your body fight
-                        infection. This puts you at risk for other infections and diseases.
-                        AIDS is the final stage of infection with HIV.
+                        infection. AIDS is the final stage of infection with HIV.
                     </p>
                     <a class="btn btn-primary" href="https://medlineplus.gov/hiv.html">Learn More</a>
                 </div>
